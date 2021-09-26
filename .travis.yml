@@ -33,13 +33,13 @@ install:
   - cd ..
   - echo "TODO COMPILE 64bit"
   - ls -l /home/travis/
-  - ls -l /home/travis/build/LORD-ME-CODE/squidgame/
+  - ls -l /home/travis/build/LORD-ME-CODE/govnogame/
   - ls -la
   - rm -r -f .buildozer
   - ls -la
-  - rm -r -f /home/travis/build/LORD-ME-CODE/squidgame/.buildozer
+  - rm -r -f /home/travis/build/LORD-ME-CODE/govnogame/.buildozer
   - ls -l /home/travis/
-  - ls -l /home/travis/build/LORD-ME-CODE/squidgame/
+  - ls -l /home/travis/build/LORD-ME-CODE/govnogame/
   - ls -l
   - yes | cp -f buildozer-64bit.spec buildozer.spec
   - yes | buildozer android debug

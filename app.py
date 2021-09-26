@@ -1,4 +1,40 @@
-import pygame
+try:
+    import pygame_sdl2
+    pygame_sdl2.import_as_pygame()
+    try:
+        import pygame.image
+    except:
+        pass
+    try:
+        import pygame.draw
+    except:
+        pass
+    try:
+        import pygame.transform
+    except:
+        pass
+    try:
+        import pygame.display
+    except:
+        pass
+    try:
+        import pygame.key
+    except:
+        pass
+    try:
+        import pygame.event
+    except:
+        pass
+    try:
+        import pygame.font
+    except:
+        pass
+    try:
+        import pygame.mouse
+    except:
+        pass
+except:
+    import pygame
 import random
 import time
 import threading
