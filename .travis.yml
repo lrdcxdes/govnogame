@@ -29,7 +29,6 @@ install:
   - ls -l
   - git clone https://github.com/renpy/pygame_sdl2.git
   - cd pygame_sdl2
-  - python fix_virtualenv.py
   - python3 setup.py install
   - cd ..
   - echo "TODO COMPILE 64bit"
